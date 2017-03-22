@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.zigzzzag</groupId>
-    <artifactId>cache-perfomance-test</artifactId>
+    <artifactId>cache-performance-test</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
