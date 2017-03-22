@@ -1,4 +1,4 @@
-package org.zigzzzag.perfomance;
+package org.zigzzzag;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -6,7 +6,6 @@ import org.hibernate.Transaction;
 import org.hibernate.stat.Statistics;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.zigzzzag.HibernateUtil;
 
 public class HibernateEHCacheTest {
 

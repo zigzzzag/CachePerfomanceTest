@@ -13,7 +13,7 @@
                   overflowToDisk="false">
     </defaultCache>
 
-    <cache name="org.zigzzzag.perfomance.Branch"
+    <cache name="org.zigzzzag.Branch"
            maxElementsInMemory="15000"
            memoryStoreEvictionPolicy="LFU"
            eternal="false"

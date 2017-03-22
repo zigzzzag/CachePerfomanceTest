@@ -1,4 +1,4 @@
-package org.zigzzzag.perfomance;
+package org.zigzzzag;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;

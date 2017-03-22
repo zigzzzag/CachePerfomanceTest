@@ -29,7 +29,7 @@
         <property name="hibernate.cache.use_query_cache">true</property>
         <property name="net.sf.ehcache.configurationResourceName">/ehcache.xml</property>
 
-        <mapping class="org.zigzzzag.perfomance.Branch"/>
+        <mapping class="org.zigzzzag.Branch"/>
     </session-factory>
 
 </hibernate-configuration>
