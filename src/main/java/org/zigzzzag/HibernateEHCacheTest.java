@@ -73,7 +73,7 @@ public class HibernateEHCacheTest {
     }
 
     private static void printData(Branch branch, Statistics stats, int count) {
-        LOG.info("{}:: Name={}, Type={}", count, branch.getName(), branch.getType());
+        LOG.info("{}:: Name={}", count, branch.getName());
         printStats(stats, count);
     }
 }

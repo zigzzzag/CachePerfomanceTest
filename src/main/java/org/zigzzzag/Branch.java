@@ -91,19 +91,19 @@ public class Branch {
     }
 
 
-    long getId() {
+    public long getId() {
         return id;
     }
 
-    void setId(long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
-    void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -111,55 +111,55 @@ public class Branch {
         return type;
     }
 
-    void setType(String type) {
+    public void setType(String type) {
         this.type = type;
     }
 
-    String getData1() {
+    public String getData1() {
         return data1;
     }
 
-    void setData1(String data1) {
+    public void setData1(String data1) {
         this.data1 = data1;
     }
 
-    String getData2() {
+    public String getData2() {
         return data2;
     }
 
-    void setData2(String data2) {
+    public void setData2(String data2) {
         this.data2 = data2;
     }
 
-    String getData3() {
+    public String getData3() {
         return data3;
     }
 
-    void setData3(String data3) {
+    public void setData3(String data3) {
         this.data3 = data3;
     }
 
-    String getData4() {
+    public String getData4() {
         return data4;
     }
 
-    void setData4(String data4) {
+    public void setData4(String data4) {
         this.data4 = data4;
     }
 
-    String getData5() {
+    public String getData5() {
         return data5;
     }
 
-    void setData5(String data5) {
+    public void setData5(String data5) {
         this.data5 = data5;
     }
 
-    Date getShelfLife() {
+    public Date getShelfLife() {
         return shelfLife;
     }
 
-    void setShelfLife(Date shelfLife) {
+    public void setShelfLife(Date shelfLife) {
         this.shelfLife = shelfLife;
     }
 }
