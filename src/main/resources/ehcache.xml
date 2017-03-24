@@ -14,7 +14,7 @@
     </defaultCache>
 
     <cache name="org.zigzzzag.Branch"
-           maxElementsInMemory="15000"
+           maxElementsInMemory="150000"
            memoryStoreEvictionPolicy="LFU"
            eternal="false"
            timeToIdleSeconds="60"

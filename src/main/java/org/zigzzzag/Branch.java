@@ -14,7 +14,7 @@ import java.util.Date;
 
 @Entity
 @Table(name = "Branch")
-@Cache(usage = CacheConcurrencyStrategy.READ_ONLY)
+@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class Branch {
 
     @Id
@@ -42,6 +42,51 @@ public class Branch {
 
     @Column(nullable = false)
     private String data5;
+
+    @Column(nullable = false)
+    private String data6;
+
+    @Column(nullable = false)
+    private String data7;
+
+    @Column(nullable = false)
+    private String data8;
+
+    @Column(nullable = false)
+    private String data9;
+
+    @Column(nullable = false)
+    private String data10;
+
+    @Column(nullable = false)
+    private String data11;
+
+    @Column(nullable = false)
+    private String data12;
+
+    @Column(nullable = false)
+    private String data13;
+
+    @Column(nullable = false)
+    private String data14;
+
+    @Column(nullable = false)
+    private String data15;
+
+    @Column(nullable = false)
+    private String data16;
+
+    @Column(nullable = false)
+    private String data17;
+
+    @Column(nullable = false)
+    private String data18;
+
+    @Column(nullable = false)
+    private String data19;
+
+    @Column(nullable = false)
+    private String data20;
 
     @Column(nullable = false)
     private Date shelfLife;
@@ -82,6 +127,81 @@ public class Branch {
 
     Branch data5(String data5) {
         this.data5 = data5;
+        return this;
+    }
+
+    Branch data6(String data6) {
+        this.data6 = data6;
+        return this;
+    }
+
+    Branch data7(String data7) {
+        this.data7 = data7;
+        return this;
+    }
+
+    Branch data8(String data8) {
+        this.data8 = data8;
+        return this;
+    }
+
+    Branch data9(String data9) {
+        this.data9 = data9;
+        return this;
+    }
+
+    Branch data10(String data10) {
+        this.data10 = data10;
+        return this;
+    }
+
+    Branch data11(String data11) {
+        this.data11 = data11;
+        return this;
+    }
+
+    Branch data12(String data12) {
+        this.data12 = data12;
+        return this;
+    }
+
+    Branch data13(String data13) {
+        this.data13 = data13;
+        return this;
+    }
+
+    Branch data14(String data14) {
+        this.data14 = data14;
+        return this;
+    }
+
+    Branch data15(String data15) {
+        this.data15 = data15;
+        return this;
+    }
+
+    Branch data16(String data16) {
+        this.data16 = data16;
+        return this;
+    }
+
+    Branch data17(String data17) {
+        this.data17 = data17;
+        return this;
+    }
+
+    Branch data18(String data18) {
+        this.data18 = data18;
+        return this;
+    }
+
+    Branch data19(String data19) {
+        this.data19 = data19;
+        return this;
+    }
+
+    Branch data20(String data20) {
+        this.data20 = data20;
         return this;
     }
 
@@ -153,6 +273,126 @@ public class Branch {
 
     public void setData5(String data5) {
         this.data5 = data5;
+    }
+
+    public String getData6() {
+        return data6;
+    }
+
+    public void setData6(String data6) {
+        this.data6 = data6;
+    }
+
+    public String getData7() {
+        return data7;
+    }
+
+    public void setData7(String data7) {
+        this.data7 = data7;
+    }
+
+    public String getData8() {
+        return data8;
+    }
+
+    public void setData8(String data8) {
+        this.data8 = data8;
+    }
+
+    public String getData9() {
+        return data9;
+    }
+
+    public void setData9(String data9) {
+        this.data9 = data9;
+    }
+
+    public String getData10() {
+        return data10;
+    }
+
+    public void setData10(String data10) {
+        this.data10 = data10;
+    }
+
+    public String getData11() {
+        return data11;
+    }
+
+    public void setData11(String data11) {
+        this.data11 = data11;
+    }
+
+    public String getData12() {
+        return data12;
+    }
+
+    public void setData12(String data12) {
+        this.data12 = data12;
+    }
+
+    public String getData13() {
+        return data13;
+    }
+
+    public void setData13(String data13) {
+        this.data13 = data13;
+    }
+
+    public String getData14() {
+        return data14;
+    }
+
+    public void setData14(String data14) {
+        this.data14 = data14;
+    }
+
+    public String getData15() {
+        return data15;
+    }
+
+    public void setData15(String data15) {
+        this.data15 = data15;
+    }
+
+    public String getData16() {
+        return data16;
+    }
+
+    public void setData16(String data16) {
+        this.data16 = data16;
+    }
+
+    public String getData17() {
+        return data17;
+    }
+
+    public void setData17(String data17) {
+        this.data17 = data17;
+    }
+
+    public String getData18() {
+        return data18;
+    }
+
+    public void setData18(String data18) {
+        this.data18 = data18;
+    }
+
+    public String getData19() {
+        return data19;
+    }
+
+    public void setData19(String data19) {
+        this.data19 = data19;
+    }
+
+    public String getData20() {
+        return data20;
+    }
+
+    public void setData20(String data20) {
+        this.data20 = data20;
     }
 
     public Date getShelfLife() {

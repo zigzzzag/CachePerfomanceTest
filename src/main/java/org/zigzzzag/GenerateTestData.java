@@ -10,7 +10,7 @@ import java.util.Date;
 class GenerateTestData {
 
     private static final Logger LOG = LoggerFactory.getLogger(GenerateTestData.class);
-    private static final int ENTRY_COUNT = 2_000_000;
+    private static final int ENTRY_COUNT = 4_000_000;
     private static final int BATCH_SIZE = 50;
 
     private GenerateTestData() {
@@ -46,6 +46,21 @@ class GenerateTestData {
                     .data3("First data3 " + i)
                     .data4("First data4 " + i)
                     .data5("First data5 " + i)
+                    .data6("First data6 " + i)
+                    .data7("First data7 " + i)
+                    .data8("First data8 " + i)
+                    .data9("First data9 " + i)
+                    .data10("First data10 " + i)
+                    .data11("First data11 " + i)
+                    .data12("First data12 " + i)
+                    .data13("First data13 " + i)
+                    .data14("First data14 " + i)
+                    .data15("First data15 " + i)
+                    .data16("First data16 " + i)
+                    .data17("First data17 " + i)
+                    .data18("First data18 " + i)
+                    .data19("First data19 " + i)
+                    .data20("First data20 " + i)
                     .shelfLife(new Date());
             session.save(p);
 
